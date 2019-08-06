@@ -100,7 +100,7 @@ public class Lab9 {
 			
 			double j = Collections.max(list2);
 			double k = Collections.min(list2);
-			double l = sum/(items.size()-1);
+			double l = sum/(list2.size());
 			
 			System.out.println("Your Maximum and Minimum prices are " + j + "   " + k );
 			System.out.println("Average price per item in order was " + l);
